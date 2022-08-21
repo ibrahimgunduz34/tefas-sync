@@ -19,7 +19,7 @@
 * Run the following command
 
 ```shell
-$ node sync.js
+$ node run sync
 ```
 
 The heat-map will be generated here:
