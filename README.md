@@ -26,5 +26,13 @@ The heat-map will be generated here:
 https://docs.google.com/spreadsheets/d/1cKXLD-mBjFdB5lR1rJ1NcHNSFHUrLyD5CoHc_cSIs1s/edit#gid=1640054438
 
 
+## Available Configurations:
+The configurations that the application can interpret explained below are placed in *config.js* file.
+
+* *CREDENTIALS_FILE:* Name of the credential file with absolute path.
+* *SPREADSHEET_ID:* Identifier of the spreadsheet to be updated. You can obtain the id directlry from the spreadsheet url.
+* *SCOPES:* Scope of the services to be accessed. No need to change.  Should remain as ["https://www.googleapis.com/auth/spreadsheets"]
+* *SHEET_ID:* Name of the sheet to be updated.
+
 ## TODO(s)
 * Build the spread sheet with all the headers and conditional formattings from the scratch when the script is executed.
