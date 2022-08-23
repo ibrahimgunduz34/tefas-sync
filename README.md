@@ -25,6 +25,19 @@ $ node run sync
 The heat-map will be generated here:
 https://docs.google.com/spreadsheets/d/1cKXLD-mBjFdB5lR1rJ1NcHNSFHUrLyD5CoHc_cSIs1s/edit#gid=1640054438
 
+## How To Run Tefas SYNC Inside Docker
+
+* Build the docker image if you run it first time.
+
+```shell
+$ docker build -t tefas-sync:latest -f Dockerfile .
+```
+
+* Run Tefas SYNC by executing the following command:
+
+```shell
+$ docker run --rm tefas-sync:latest
+```
 
 ## Available Configurations:
 The configurations that the application can interpret explained below are placed in *config.js* file.
